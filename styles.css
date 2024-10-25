@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+#text-btn {
+    background-color: rgb(100, 77, 212);
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 10px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px #000;
+    width: 240px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#text-btn:hover {
+    background-color: rgb(62, 46, 138);
+}
+
+.main-bg {
+    background-color: #f2f2f2;
+    max-width: 1300px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    gap: 20px;
+}
+
+.content-field {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 15px;
+    text-align: center;
+    border: 3px solid #e5e5e5;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px #000;
+}
+
+h1 {
+    font-size: 26px;
+}
